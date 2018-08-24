@@ -269,10 +269,3 @@ a {
   border-color: #80D0DC;
   color: #EC008C;
 }
-
-/* ABOUT ME */
-.container-about-me {
-  background-image: url("../img/bg_aboutme.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-}
