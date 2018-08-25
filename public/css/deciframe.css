@@ -27,12 +27,15 @@
 }
 
 .container-theme {
-  border-bottom: 2px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 80px;
 }
 
 .heading, .deciframe {
   text-align: center;
   color: #ec008c;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -56,48 +59,51 @@ h4 {
   background-color: #EB088C;
   background-image: url("../img/deciframe_2.png");
   background-size: cover;
-  padding-top: 100px;
   padding: 40px;
-
-}
-
-.verdinha {
-  background-color: #35c1d2;
-  height: 200px;
 }
 
 .vazado-card {
   background-color: #4A3884;
 }
 
-.usability {
-  background-color: #4A3884;
+.process {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-.final {
+.usability {
+  background-color: #4A3884;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.progress {
+  margin-top: 75px;
+  background-color: #97bf3d;
+}
+
+.final{
   background-color: #92278F;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (min-width: 768px) {
   .vazado .vazado-card {
-    padding: 5px;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
     font-size: 2.3em;
 }
 
 @media (min-width: 992px) {
   .vazado, .vazado-card {
-    padding: 15px;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding: 80px;
     font-size: 1em;
 }
 
 @media (min-width: 1200px) {
   .vazado .vazado-card {
-    padding: 60px;
+    padding: 80px;
     font-size: 4em;
-    padding-top: 100px;
-    padding-bottom: 80px;
 }
