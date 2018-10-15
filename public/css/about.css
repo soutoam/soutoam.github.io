@@ -3,31 +3,15 @@
   font-family: roboto-bold;
 }
 
-h2 {
+h3 {
   color: #EC008C;
   font-size: 18px;
   line-height: 150%;
 }
 
 h4 {
-  padding-top: 15px;
-  color: #EC008C;
-  font-family: Roboto-bold;
-  font-size: 20px;
-  line-height: 150%;
-}
-
-h6 {
   color: #7D4D9F;
-  font-family: Roboto-light;
   font-size: 18px;
-  line-height: 150%;
-}
-
-h7 {
-  color: #7D4D9F;
-  font-family: Roboto-italic;
-  font-size: 16px;
   line-height: 150%;
 }
 
