@@ -1,0 +1,113 @@
+.deciframe-work {
+  background-color: #6C8CC7;
+}
+
+.navbar-default {
+  background-color: #6C8CC7;
+}
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand.active {
+   border-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #6C8CC7;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.navbar-container {
+  border-bottom: solid 2px #FFFFFF;
+}
+
+.container-theme {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 80px;
+}
+
+.heading, .deciframe {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+h4 {
+  color: #595A5C;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.linha{
+  border-top: solid 2px #FFFFFF;
+  margin-left: 15px;
+}
+
+.vazado {
+  background-color: #A54686;
+  background-image: url("../img/wikilibras_2.jpg");
+  background-size: cover;
+  padding: 40px;
+}
+
+.vazado-card {
+  background-color: #A54686;
+}
+
+.process {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.usability {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.progress {
+  margin-top: 75px;
+  background-color: #97bf3d;
+}
+
+.final{
+  background-color: #6C8CC7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .vazado .vazado-card {
+    padding: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 2.3em;
+}
+
+@media (min-width: 992px) {
+  .vazado, .vazado-card {
+    padding: 80px;
+    font-size: 1em;
+}
+
+@media (min-width: 1200px) {
+  .vazado .vazado-card {
+    padding: 80px;
+    font-size: 4em;
+}
