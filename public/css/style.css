@@ -37,6 +37,9 @@ body {
   font-size: 2em;
   color: #F15A29;
 }
+.journey {
+  text-align: center;
+}
 @media (max-width:768px) {
   .heading {
     font-size: 2.3em;
@@ -97,6 +100,10 @@ body {
   font-size: 0.9em;
   font-weight: bold;
   background-size: cover;
+  opacity: 0.3;
+}
+.grid-el:hover {
+  opacity: 1.0;
 }
 @media (min-width: 768px) {
   .grid-el {
@@ -120,7 +127,7 @@ body {
   margin-bottom: 10px;
 }
 .work1 { background-color: #F15A29; grid-area: work1; background-image: url("../img/capa-61.png");  
-	 background-position: calc(100% + 70px) calc(100% + 35px); } .work1 > a {color: #FFFFFF;}
+	 background-position: calc(100% + 70px) calc(100% + 35px); } .work1 > a {color: #FFFFFF; }
 .work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png");} .work2 > a {color: #FFFFFF;}
 .work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/capa_contribua-29.png");
 	 background-position: calc(100% + 100px) calc(100% - 20px); } .work3 > a {color: #FFFFFF;}
