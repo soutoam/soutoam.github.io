@@ -78,7 +78,7 @@ body {
 .grid-elements {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-template-areas:
     "work1 work1 work2 work2 work3 work3"
     "work1 work1 work2 work2 work3 work3"
@@ -86,6 +86,7 @@ body {
     "work4 work4 work5 work5 logo3 logo3"
     "work6 work6 work6 logo4 work7 work7"
     "work6 work6 work6 logo4 work7 work7"
+    "work8 work8 w     w     w     w"
 }
 .grid-el {
   margin-right: 10px;
@@ -118,10 +119,13 @@ body {
   margin-right: 0;
   margin-bottom: 10px;
 }
-.work1 { background-color: #EC008C; grid-area: work1; background-image: url("../img/work_wikilibras.png");  } .work1 > a {color: #FFFFFF;}
+.work1 { background-color: #F15A29; grid-area: work1; background-image: url("../img/capa-61.png");  
+	 background-position: calc(100% + 70px) calc(100% + 35px); } .work1 > a {color: #FFFFFF;}
 .work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png");} .work2 > a {color: #FFFFFF;}
-.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/work_contribua.png");   } .work3 > a {color: #FFFFFF;}
-.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/work_deciframe.png");   } .work4 > a {color: #FFFFFF;}
+.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/capa_contribua-29.png");
+	 background-position: calc(100% + 100px) calc(100% - 20px); } .work3 > a {color: #FFFFFF;}
+.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/capa-60.png");
+         background-position: center calc(100% - 40px) } .work4 > a {color: #FFFFFF;}
 .work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/work_ws.png");          } .work5 > a {color: #FFFFFF;}
 .work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/work_tcc.png");         } .work6 > a {color: #FFFFFF;}
 .work7 { background-color: #F15A29; grid-area: work7; background-image: url("../img/work_fold.png");        } .work7 > a {color: #FFFFFF;}
@@ -129,6 +133,7 @@ body {
 .logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; } .logo2 > a {color: #EC008C;}
 .logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; } .logo3 > a {color: #80D0DC;}
 .logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; } .logo4 > a {color: #FCAF17;}
+.work8 { background-color: #EC008C; grid-area: work8; background-image: url("../img/work_wikilibras.png");  } .work8 > a {color: #FFFFFF;}
 
 .grid-el > a {
   display: flex;
