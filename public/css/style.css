@@ -95,15 +95,11 @@ body {
   margin-right: 10px;
   margin-bottom: 10px;
   color: #fff;
-  line-height: 0.9em;
+  line-height: 0.7em;
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
   background-size: cover;
-  opacity: 0.3;
-}
-.grid-el:hover {
-  opacity: 1.0;
 }
 @media (min-width: 768px) {
   .grid-el {
@@ -114,33 +110,31 @@ body {
 @media (min-width: 992px) {
   .grid-el {
     padding: 15px;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 @media (min-width: 1200px) {
   .grid-el {
-    font-size: 4em;
+    font-size: 2.5em;
   }
 }
 .grid-el.last {
   margin-right: 0;
   margin-bottom: 10px;
 }
-.work1 { background-color: #F15A29; grid-area: work1; background-image: url("../img/capa-61.png");  
-	 background-position: calc(100% + 70px) calc(100% + 35px); } .work1 > a {color: #FFFFFF; }
-.work2 { background-color: #FCAF17; grid-area: work2; background-image: url("../img/work_diferentonas.png");} .work2 > a {color: #FFFFFF;}
-.work3 { background-color: #7D4D9F; grid-area: work3; background-image: url("../img/capa_contribua-29.png");
-	 background-position: calc(100% + 100px) calc(100% - 20px); } .work3 > a {color: #FFFFFF;}
-.work4 { background-color: #6DC8BD; grid-area: work4; background-image: url("../img/capa-60.png");
-         background-position: center calc(100% - 40px) } .work4 > a {color: #FFFFFF;}
-.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/work_ws.png");          } .work5 > a {color: #FFFFFF;}
-.work6 { background-color: #7D4D9F; grid-area: work6; background-image: url("../img/work_tcc.png");         } .work6 > a {color: #FFFFFF;}
-.work7 { background-color: #F15A29; grid-area: work7; background-image: url("../img/work_fold.png");        } .work7 > a {color: #FFFFFF;}
+.work1 { background-color: #ec008c; grid-area: work1; background-image: url("../img/capa/capa_port-01.png"); } .work1 > a {color: #FFFFFF;}
+.work2 { background-color: #f7941d; grid-area: work2; background-image: url("../img/capa/capa_port-02.png"); } .work2 > a {color: #FFFFFF;}
+.work3 { background-color: #f15a29; grid-area: work3; background-image: url("../img/capa/capa_port-03.png");} .work3 > a {color: #FFFFFF;}
+.work4 { background-color: #FCAF17; grid-area: work4; background-image: url("../img/capa/capa_port-06.png"); } .work4 > a {color: #FFFFFF; }
+.work5 { background-color: #80D0DC; grid-area: work5; background-image: url("../img/capa/capa_port-07.png");          } .work5 > a {color: #FFFFFF;}
+.work6 { background-color: #82cdbd; grid-area: work6; background-image: url("../img/capa/capa_port-05.png"); } .work6 > a {color: #FFFFFF;}
+.work7 { background-color: #e25580; grid-area: work7; background-image: url("../img/capa/capa_port-08.png"); } .work7 > a {color: #FFFFFF;}
 .logo1 { background-color: #FFFFFF; grid-area: logo1; border: solid 2px #7D4D9F; } .logo1 > a {color: #7D4D9F;}
 .logo2 { background-color: #FFFFFF; grid-area: logo2; border: solid 2px #EC008C; } .logo2 > a {color: #EC008C;}
 .logo3 { background-color: #FFFFFF; grid-area: logo3; border: solid 2px #80D0DC; } .logo3 > a {color: #80D0DC;}
 .logo4 { background-color: #FFFFFF; grid-area: logo4; border: solid 2px #FCAF17; } .logo4 > a {color: #FCAF17;}
-.work8 { background-color: #EC008C; grid-area: work8; background-image: url("../img/work_wikilibras.png");  } .work8 > a {color: #FFFFFF;}
+.work8 { background-color: #7d4d9f; grid-area: work8; background-image: url("../img/capa/capa_port-04.png");
+	 background-repeat: no-repeat; background-position: calc(100% + 100px) 50% } .work8 > a {color: #FFFFFF;}
 
 .grid-el > a {
   display: flex;
